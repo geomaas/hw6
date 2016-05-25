@@ -96,8 +96,11 @@ console.assert(isVowel("E") === true);
 
 function rovarspraket(text){
     // YOUR CODE HERE
+    var vowels = "a"
     if (text === "b") {
       return text + "o" + text;
+    }else if (text === vowels) {
+      return text;
     }
 }
 
@@ -118,6 +121,7 @@ console.assert(rovarspraket(0) === "0")
 
 function reverse(str){
     // YOUR CODE HERE
+    return str.split("").reverse().join("");
 }
 
 console.assert(reverse("books") === "skoob")
@@ -134,6 +138,7 @@ console.assert(reverse("we don't want no trouble") === "elbuort on tnaw t'nod ew
 
 function findLongestWord(sentence){
     // YOUR CODE HERE
+    return sentence.split("")
 }
 
 console.assert(findLongestWord("book dogs") === "book")

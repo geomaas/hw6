@@ -28,7 +28,9 @@ function doSomethingCool() {
 }
 
 // Put your answer below -------------------------
-
+var doSomethingCool = function(){
+  console.log("Something Cool!");
+}
 
 // -----------------------------------------------
 
@@ -48,7 +50,13 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
+function () {
+  alert("Hello, World!");
+}
 
+setTimeout(sayHi, 2000);
+
+}
 
 // -----------------------------------------------
 
@@ -79,6 +87,8 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// the answer is b: y then z. as "var letter x" is set outside the function and doesnt apply.
+// whereas y is set as var before z within the function
 
 // -----------------------------------------------
 
@@ -101,6 +111,7 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 
+return str.split("").reverse().join("");
 
 // -----------------------------------------------
 
