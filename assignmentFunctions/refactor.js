@@ -50,7 +50,7 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
-function () {
+setTimeout.function () {
   alert("Hello, World!");
 }
 
@@ -87,8 +87,8 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
-// the answer is b: y then z. as "var letter x" is set outside the function and doesnt apply.
-// whereas y is set as var before z within the function
+// the answer is c: z then y. as "var letter x" is set outside the function and doesnt apply.
+// whereas y is set on a 1sec delay with the setTimeout function
 
 // -----------------------------------------------
 
